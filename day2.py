@@ -60,5 +60,5 @@ def part2(file):
 
 
 file = open("./data-j2.txt", "r")
-#part1(file)
+# part1(file)
 part2(file)
