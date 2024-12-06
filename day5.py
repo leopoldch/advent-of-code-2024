@@ -43,8 +43,8 @@ def sort_list(rules, tab):
         last_index = get_last_position(number, sorted, rules)
         if last_index == -1:
             sorted.insert(0, number)
-        else:
-            sorted.insert(last_index + 1, number)
+            continue
+        sorted.insert(last_index + 1, number)
     return sorted
 
 
