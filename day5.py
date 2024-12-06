@@ -43,8 +43,6 @@ def sort_list(rules, tab):
         last_index = get_last_position(number, sorted, rules)
         if last_index == -1:
             sorted.insert(0, number)
-        elif last_index == len(sorted) - 1:
-            sorted.append(number)
         else:
             sorted.insert(last_index + 1, number)
     return sorted
@@ -83,5 +81,5 @@ def part2(file):
 
 
 file = open("./data-j5.txt", "r")
-#part1(file)
+# part1(file)
 part2(file)
