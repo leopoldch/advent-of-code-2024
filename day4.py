@@ -75,12 +75,11 @@ def extract_sub_matrix(tab, x, y, size):
 def part2(file):
     tab = [line.strip() for line in file.readlines()]
 
-    rows = len(tab)
-    cols = len(tab[0])
+    len = len(tab)
     nb = 0
 
-    for i in range(rows - 1):
-        for j in range(cols - 1):
+    for i in range(len - 1):
+        for j in range(len - 1):
             sub_matrix = extract_sub_matrix(tab, i, j, 3)
             if sub_matrix is None:
                 continue
