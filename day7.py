@@ -1,11 +1,10 @@
-from itertools import product
-
 # Seventh day of the Advent of Code 2024 Challenge
 # author : Léopold Chappuis; leopold@lchappuis.fr
 # Please acknowledge that this isn't the most efficient
 # way to solve the problem.
 # This has been done on purpose to keep the code simple
 # and to do it as fast as possible.
+from itertools import product
 
 
 def left_to_right_eval(expression):
@@ -74,5 +73,5 @@ def part2(file):
 
 file = open("./data/d7.txt", "r")
 
-#part1(file)
+# part1(file)
 part2(file)
