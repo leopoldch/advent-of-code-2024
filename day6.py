@@ -158,6 +158,6 @@ def part2(file):
     print(f"Total of infinite loops : {total}")
 
 
-file = open("./data-j6.txt", "r")
+file = open("./data/d6.txt", "r")
 # part1(file)
 part2(file)

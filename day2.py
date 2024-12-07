@@ -59,6 +59,6 @@ def part2(file):
     print(number_of_safe)
 
 
-file = open("./data-j2.txt", "r")
+file = open("./data/d2.txt", "r")
 # part1(file)
 part2(file)

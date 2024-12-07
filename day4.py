@@ -104,6 +104,6 @@ def part2(file):
     print(nb)
 
 
-file = open("./data-j4.txt", "r")
+file = open("./data/d4.txt", "r")
 part1(file)
 part2(file)

@@ -37,6 +37,6 @@ def part2(file):
     print(total)
 
 
-file = open("./data-j3.txt", "r")
+file = open("./data/d3.txt", "r")
 part1(file)
 part2(file)

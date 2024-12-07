@@ -80,6 +80,6 @@ def part2(file):
     print(total)
 
 
-file = open("./data-j5.txt", "r")
+file = open("./data/d5.txt", "r")
 # part1(file)
 part2(file)
