@@ -128,7 +128,7 @@ def part1(file):
 
 
 def part2(file):
-    # NOTE: This is a very inefficient way to solve the problem
+    # NOTE: This is a very unefficient way to solve the problem
     total = 0
     lines = [line.strip() for line in file]
     original = Plate([list(line) for line in lines])
@@ -149,7 +149,6 @@ def part2(file):
                 plate.move_guard(tup[0], tup[1], sign)
                 if plate.path_has_been_visited_twice():
                     total += 1
-                    print(f"Total of infinite loops : {total}")
                     break
 
             del plate
